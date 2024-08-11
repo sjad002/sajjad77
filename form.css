@@ -1,0 +1,16 @@
+.register{
+    border: 1px solid purple;
+    width: 1000px;
+    height: 500px;
+    box-shadow: 1px 1px 10px rgb(220, 7, 220);
+    dis
+    
+}
+.Register_background{
+    align-items: center;
+    
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 0 0 4px #86198f;
+}

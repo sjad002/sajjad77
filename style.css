@@ -1,0 +1,185 @@
+html {
+    font-size: 100%;
+    font-family: Vazirmatn;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 2rem;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 50%; 
+    height: 630px;
+    margin: 0 auto;
+    box-shadow: 0 0 8px rgb(0, 68, 255);
+}
+
+@media(max-width: 768px){
+    .form {
+        width: 100%;
+    }
+}
+
+.form .form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(37, 0, 244);
+    margin-bottom: 1rem;
+}
+
+.form label {
+    font-weight: bold;
+
+}
+
+.form label,
+.form input:not([type="checkbox"]) {
+    display: block;
+    margin-bottom: 0.7rem;
+    margin-right: 1rem;
+
+}
+
+.form input.form-control {
+    width: 70%;
+    font-family: inherit;
+    padding: 0.6rem;
+    border-radius: 4px;
+    border: 1.5px solid #5e54f0
+}
+
+.form input::placeholder {
+    color: black;
+    font-family: Vazirmatn;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.checkbox {
+    position: relative;
+    padding-right: 2rem;
+
+}
+
+.checkbox input {
+    display: none;
+
+}
+
+.checkbox .checkmark {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 4px;
+}
+
+.checkbox:hover .checkmark {
+    background-color: #ccc;
+
+}
+
+.checkbox input:checked~.checkmark {
+    background-color: #2196f3;
+}
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    top: 5px;
+    right: 8px;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+
+.checkbox input:checked~.checkmark::after {
+    display: block;
+}
+
+.form input:focus {
+    background-color: rgb(203 203 241);
+    box-shadow: 0 0 8px rgb(43, 43, 232);
+    transition: all 0.5s;
+
+}
+
+
+.form input {
+    outline: none;
+}
+
+.btn {
+    border: none;
+    font-family: inherit;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    cursor: pointer;
+    width: 35%;
+    height: 50px;
+    font-size: 25px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 8px rgb(43, 43, 232);
+}
+
+.back {
+    padding: 0.5rem;
+    color: white;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(0, 68, 255);
+    width: 35%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: Vazirmatn;
+}
+
+.back:hover {
+    box-shadow: 0 0 8px rgb(43, 43, 232);
+}
+
+.checkbox {
+    margin-top: 30px;
+
+}
+.text1{
+    display: flex;
+    justify-content: center;
+}
+
+.text2 {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 70%;
+    text-align: center;
+}
+.button1{
+    display: flex;
+    justify-content: space-around;
+    
+}
